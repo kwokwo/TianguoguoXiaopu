@@ -119,23 +119,23 @@ page {
 
 .classify-container .classify.active {
   background: #fff;
-  border-left: 4rpx solid #FF5777;
   border-top: 1rpx solid #EFEFEF;
   border-bottom: 1rpx solid #EFEFEF;
 }
 
 .classify-container .classify .name {
-  display: inline-block;
   font-size: 28rpx;
   color: #646464;
-  line-height: 1.2;
-  text-align: left;
+  line-height: 1;
+  text-align: center;
   pointer-events: none;
+  
 }
 
 .classify-container .classify .name.active {
   color: #FF5777;
   font-weight: bold;
+  border-left: 4rpx solid #FF5777;
 }
 
 .goods-container {
@@ -182,9 +182,8 @@ page {
 }
 
 .goods-container .goods .name {
-  color: #000;
+  color: #333;
   font-size: 28rpx;
-  font-weight: bold;
   line-height: 46rpx;
 }
 
@@ -210,8 +209,8 @@ page {
 .goods-container .goods .soldInfo .good-price-box .price {
   color: #ff4422;
   margin-top: 10rpx;
-  width: 120rpx;
-  font-size: 28rpx;
+  width: 220rpx;
+  font-size: 24rpx;
   font-weight: bold;
   line-height: 40rpx;
 }

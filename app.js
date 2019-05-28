@@ -219,7 +219,7 @@ App({
     bgGreen: 175,
     bgBlue: 180,
     userInfo: null,
-    subDomain: "tggtest",// 商城后台个性域名tgg
+    subDomain: "ad1aa82c54e28557dc6b0cb1aa666c62",// 商城后台个性域名tgg
     version: "2.0.6",
     shareProfile: '   一流的服务，做超新鲜的水果' // 首页转发的时候术语
   }
